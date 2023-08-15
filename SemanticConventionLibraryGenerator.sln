@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BDF9F3E2-C012-4B09-8DDD-45EA3C8B1C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticConventionLibraryGenerator", "src\SemanticConventionLibraryGenerator\SemanticConventionLibraryGenerator.csproj", "{ECF6B840-047C-4997-9320-5F5A4EAC9AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9DB0D6CA-1D85-4063-8BD0-3E88A2902334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticConventionLibraryGenerator.Tests", "test\SemanticConventionLibraryGenerator.Tests\SemanticConventionLibraryGenerator.Tests.csproj", "{FA072F20-6F17-4F3E-BD63-C5AD0D551AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTelSemanticConventions", "src\OTelSemanticConventions\OTelSemanticConventions.csproj", "{CAF7CBF2-DE6D-4F25-82A4-C2204052DC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF6B840-047C-4997-9320-5F5A4EAC9AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF6B840-047C-4997-9320-5F5A4EAC9AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF6B840-047C-4997-9320-5F5A4EAC9AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF6B840-047C-4997-9320-5F5A4EAC9AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA072F20-6F17-4F3E-BD63-C5AD0D551AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA072F20-6F17-4F3E-BD63-C5AD0D551AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA072F20-6F17-4F3E-BD63-C5AD0D551AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA072F20-6F17-4F3E-BD63-C5AD0D551AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF7CBF2-DE6D-4F25-82A4-C2204052DC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF7CBF2-DE6D-4F25-82A4-C2204052DC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF7CBF2-DE6D-4F25-82A4-C2204052DC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF7CBF2-DE6D-4F25-82A4-C2204052DC97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECF6B840-047C-4997-9320-5F5A4EAC9AA1} = {BDF9F3E2-C012-4B09-8DDD-45EA3C8B1C91}
+		{FA072F20-6F17-4F3E-BD63-C5AD0D551AC3} = {9DB0D6CA-1D85-4063-8BD0-3E88A2902334}
+		{CAF7CBF2-DE6D-4F25-82A4-C2204052DC97} = {BDF9F3E2-C012-4B09-8DDD-45EA3C8B1C91}
+	EndGlobalSection
+EndGlobal
